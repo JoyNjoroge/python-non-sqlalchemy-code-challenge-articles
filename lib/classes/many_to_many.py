@@ -145,3 +145,18 @@ class Article:
         if not isinstance(value, Magazine):
             raise TypeError("Magazine must be of type Magazine")
         self._magazine = value
+
+
+
+"""
+     Rules to remember
+    ==================
+1. Length emphasies -> not too long not too short
+2. once named - name, title etc cant be changed
+3. everything to remember what its connected to
+4. names cant be numbers
+5. Find out which authors write the most
+6.See which magazine has the most stories
+7. Know what kinds of stories each author writes
+8. See all the stories in a magazine
+"""
